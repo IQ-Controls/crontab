@@ -1,5 +1,5 @@
 {
-    "name": "yii2tech/crontab",
+    "name": "iq-controls/crontab",
     "description": "Crontab support extension for the Yii2 framework",
     "keywords": ["yii2", "crontab", "cronjob", "cron"],
     "type": "yii2-extension",
@@ -29,6 +29,9 @@
             "url": "https://asset-packagist.org"
         }
     ],
+    "provide": {
+        "yii2tech/crontab": "1.0.0"
+    },
     "autoload": {
         "psr-4": {"yii2tech\\crontab\\": "src"}
     },
