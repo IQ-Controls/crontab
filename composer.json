@@ -5,18 +5,22 @@
     "type": "yii2-extension",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/yii2tech/crontab/issues",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "https://github.com/yii2tech/crontab/wiki",
-        "source": "https://github.com/yii2tech/crontab"
+        "issues": "https://github.com/IQ-Controls/crontab/issues",
+        "wiki": "https://github.com/IQ-Controls/crontab/wiki",
+        "source": "https://github.com/IQ-Controls/crontab"
     },
     "authors": [
+        {
+            "name": "Lake Hopkins",
+            "email": "lake@iqcontrols.com.au"
+        },
         {
             "name": "Paul Klimov",
             "email": "klimov.paul@gmail.com"
         }
     ],
     "require": {
+        "php": ">= 8.3",
         "yiisoft/yii2": "~2.0.14"
     },
     "repositories": [
